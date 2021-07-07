@@ -1,0 +1,42 @@
+package com.sxt.bus.controller;
+
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.web.bind.annotation.RequestMapping;
+
+import org.springframework.web.bind.annotation.RestController;
+
+import com.sxt.bus.service.OutportService;
+import com.sxt.sys.common.ResultObj;
+
+/**
+ * <p>
+ *  前端控制器
+ * </p>
+ *
+ * @author 老雷
+ * @since 2019-09-28
+ */
+@RestController
+@RequestMapping("outport")
+public class OutportController {
+	
+	@Autowired
+	private OutportService outportService;
+
+	/**
+	 * 添加退货信息
+	 */
+	@RequestMapping("addOutport")
+	public ResultObj addOutport(Integer id,Integer number,String remark) {
+		try {
+			this.outportService.addOutPort(id,number,remark);
+			return ResultObj.OPERATE_SUCCESS;
+		} catch (Exception e) {
+			e.printStackTrace();
+			return ResultObj.OPERATE_ERROR;
+		}
+	}
+	
+}
+

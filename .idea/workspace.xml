@@ -1,0 +1,514 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="eae830dd-0031-4cfa-a61e-c5a667ec2001" name="默认更改列表" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="Class" />
+        <option value="Interface" />
+        <option value="XML File" />
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="HierarchyBrowserManager">
+    <option name="SORT_ALPHABETICALLY" value="true" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="$PROJECT_DIR$/../../../../../maven/apache-maven-3.6.3" />
+        <option name="userSettingsFile" value="E:\maven\apache-maven-3.6.3\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1jd0i8GelvPyi8qsKtnLqN7FLn7" />
+  <component name="ProjectViewState">
+    <option name="showExcludedFiles" value="false" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources/templates/system/resources/layui" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+    <property name="settings.editor.selected.configurable" value="reference.idesettings.debugger.capture" />
+  </component>
+  <component name="ReactorSettings">
+    <option name="notificationShown" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.sxt.sys.config" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\BaiduNetdiskDownload\仓库管理系统\07项目\07\0520ERP\src\main\resources\templates\system\resources\layui" />
+      <recent name="E:\BaiduNetdiskDownload\仓库管理系统\07项目\07\0520ERP\src\main\resources\static\resources\layui" />
+      <recent name="E:\BaiduNetdiskDownload\仓库管理系统\07项目\07\0520ERP\src\main\resources\static\resources" />
+      <recent name="E:\BaiduNetdiskDownload\仓库管理系统\07项目\07\0520ERP\src\main\resources\static\resources\images" />
+      <recent name="E:\BaiduNetdiskDownload\仓库管理系统\07项目\07\0520ERP\src\main\java\com\sxt\sys\config" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\BaiduNetdiskDownload\仓库管理系统\07项目\07\0520ERP\src\main\resources\mapper\bus" />
+      <recent name="E:\BaiduNetdiskDownload\仓库管理系统\07项目\07\0520ERP\src\main\java\com\sxt\bus\mapper\xml" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Spring Boot.Application">
+    <configuration name="index.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/0520ERP/static/resources/index.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="0520ERP" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.sxt.Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JavaScript Debug.index.html" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration" cleanupOnStartRun="true">
+    <configuration>C:\Users\Administrator\AppData\Roaming\Subversion</configuration>
+    <supportedVersion>125</supportedVersion>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="eae830dd-0031-4cfa-a61e-c5a667ec2001" name="默认更改列表" comment="" />
+      <created>1604118785174</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1604118785174</updated>
+      <workItem from="1604118793113" duration="11010000" />
+      <workItem from="1604246152460" duration="2151000" />
+      <workItem from="1604288739017" duration="1640000" />
+      <workItem from="1604302964426" duration="2821000" />
+      <workItem from="1604306563618" duration="5262000" />
+      <workItem from="1604330837344" duration="1210000" />
+      <workItem from="1604364203010" duration="6877000" />
+      <workItem from="1604671754629" duration="595000" />
+      <workItem from="1604757759600" duration="426000" />
+      <workItem from="1604805015285" duration="1889000" />
+      <workItem from="1604933993389" duration="1582000" />
+      <workItem from="1604979672298" duration="9936000" />
+      <workItem from="1605012851450" duration="2209000" />
+      <workItem from="1605107512022" duration="599000" />
+      <workItem from="1605141677439" duration="8841000" />
+      <workItem from="1605188138469" duration="2243000" />
+      <workItem from="1605230891450" duration="6426000" />
+      <workItem from="1605420621817" duration="1049000" />
+      <workItem from="1605428845416" duration="4875000" />
+      <workItem from="1605489807517" duration="14311000" />
+      <workItem from="1605535789623" duration="5604000" />
+      <workItem from="1605577323258" duration="4374000" />
+      <workItem from="1605660721787" duration="14297000" />
+      <workItem from="1605746781651" duration="14120000" />
+      <workItem from="1605794590542" duration="2924000" />
+      <workItem from="1605832817462" duration="16650000" />
+      <workItem from="1605887985620" duration="3863000" />
+      <workItem from="1606118188607" duration="2893000" />
+      <workItem from="1606147071687" duration="107000" />
+      <workItem from="1606190070124" duration="1204000" />
+      <workItem from="1606702814311" duration="179000" />
+      <workItem from="1606744631377" duration="1194000" />
+      <workItem from="1606747467316" duration="1246000" />
+      <workItem from="1607253908606" duration="998000" />
+      <workItem from="1607852495661" duration="3398000" />
+      <workItem from="1608015006100" duration="13994000" />
+      <workItem from="1608037835446" duration="8978000" />
+      <workItem from="1608047756056" duration="1203000" />
+      <workItem from="1608110367609" duration="2156000" />
+      <workItem from="1608126800530" duration="4475000" />
+      <workItem from="1608710400676" duration="1252000" />
+      <workItem from="1609207927563" duration="2643000" />
+      <workItem from="1609665794075" duration="2254000" />
+      <workItem from="1609674359589" duration="10290000" />
+      <workItem from="1609734844760" duration="600000" />
+      <workItem from="1609764975741" duration="7158000" />
+      <workItem from="1609850853486" duration="499000" />
+      <workItem from="1609935965664" duration="476000" />
+      <workItem from="1610114692435" duration="36907000" />
+      <workItem from="1610260180850" duration="6799000" />
+      <workItem from="1610361927330" duration="980000" />
+      <workItem from="1610368278099" duration="4569000" />
+      <workItem from="1610413628892" duration="33000" />
+      <workItem from="1610454639301" duration="700000" />
+      <workItem from="1610462380298" duration="5118000" />
+      <workItem from="1610499355161" duration="7225000" />
+      <workItem from="1610550448212" duration="1777000" />
+      <workItem from="1610625111393" duration="3541000" />
+      <workItem from="1610637684065" duration="1363000" />
+      <workItem from="1610772903614" duration="13349000" />
+      <workItem from="1610856753514" duration="461000" />
+      <workItem from="1610857775012" duration="35009000" />
+      <workItem from="1610964972697" duration="11646000" />
+      <workItem from="1611375794883" duration="21414000" />
+      <workItem from="1611421762085" duration="8014000" />
+      <workItem from="1611459792243" duration="13949000" />
+      <workItem from="1611580264158" duration="3359000" />
+      <workItem from="1611665776865" duration="770000" />
+      <workItem from="1611670741773" duration="2561000" />
+      <workItem from="1611674591986" duration="2594000" />
+      <workItem from="1611728796047" duration="9338000" />
+      <workItem from="1611988667042" duration="4390000" />
+      <workItem from="1612084466873" duration="18427000" />
+      <workItem from="1612184246990" duration="2787000" />
+      <workItem from="1612247713710" duration="8112000" />
+      <workItem from="1612346307252" duration="102000" />
+      <workItem from="1612754961582" duration="4573000" />
+      <workItem from="1612975974976" duration="5188000" />
+      <workItem from="1613282839763" duration="923000" />
+      <workItem from="1613290782129" duration="5522000" />
+      <workItem from="1613321892091" duration="3920000" />
+      <workItem from="1613405216608" duration="8204000" />
+      <workItem from="1613551566217" duration="1012000" />
+      <workItem from="1613610523994" duration="21009000" />
+      <workItem from="1613654330359" duration="1790000" />
+      <workItem from="1613729155694" duration="249000" />
+      <workItem from="1613742422831" duration="3478000" />
+      <workItem from="1613811871636" duration="4053000" />
+      <workItem from="1613838472358" duration="280000" />
+      <workItem from="1613839154753" duration="288000" />
+      <workItem from="1613839831916" duration="130000" />
+      <workItem from="1613840606528" duration="1421000" />
+      <workItem from="1613880925437" duration="26370000" />
+      <workItem from="1614131790972" duration="36000" />
+      <workItem from="1614343863671" duration="599000" />
+      <workItem from="1614356221697" duration="1502000" />
+      <workItem from="1614395763711" duration="34000" />
+      <workItem from="1614396549720" duration="3654000" />
+      <workItem from="1614509462590" duration="12410000" />
+      <workItem from="1614874777276" duration="516000" />
+      <workItem from="1614911065339" duration="26797000" />
+      <workItem from="1615111884673" duration="2335000" />
+      <workItem from="1615557386665" duration="610000" />
+      <workItem from="1615559157564" duration="4676000" />
+      <workItem from="1615603274036" duration="5316000" />
+      <workItem from="1615697322883" duration="964000" />
+      <workItem from="1616223216963" duration="5000000" />
+      <workItem from="1616856713057" duration="839000" />
+      <workItem from="1616865245094" duration="3480000" />
+      <workItem from="1616895667263" duration="8725000" />
+      <workItem from="1617172930321" duration="5791000" />
+      <workItem from="1617248956484" duration="1638000" />
+      <workItem from="1619423601060" duration="17000" />
+      <workItem from="1620114202588" duration="4561000" />
+      <workItem from="1620654287527" duration="6271000" />
+      <workItem from="1620698083457" duration="6428000" />
+      <workItem from="1620786137020" duration="7716000" />
+      <workItem from="1620887994399" duration="8382000" />
+      <workItem from="1621008671646" duration="1249000" />
+      <workItem from="1621824350737" duration="1033000" />
+      <workItem from="1621990620743" duration="361000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="574" y="118" key="#com.intellij.ide.util.MemberChooser" timestamp="1614937966914">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="574" y="118" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1614937966914" />
+    <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1620920933373">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1620920933373" />
+    <state width="1493" height="226" key="GridCell.Tab.0.bottom" timestamp="1621048488391">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="981" height="241" key="GridCell.Tab.0.bottom/0.0.1024.728@0.0.1024.728" timestamp="1614997664670" />
+    <state width="1493" height="226" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1621048488391" />
+    <state width="1877" height="241" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1614995901125" />
+    <state width="1493" height="226" key="GridCell.Tab.0.center" timestamp="1621048488391">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="981" height="241" key="GridCell.Tab.0.center/0.0.1024.728@0.0.1024.728" timestamp="1614997664669" />
+    <state width="1493" height="226" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1621048488391" />
+    <state width="1877" height="241" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1614995901125" />
+    <state width="1493" height="226" key="GridCell.Tab.0.left" timestamp="1621048488391">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="981" height="241" key="GridCell.Tab.0.left/0.0.1024.728@0.0.1024.728" timestamp="1614997664669" />
+    <state width="1493" height="226" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1621048488391" />
+    <state width="1877" height="241" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1614995901124" />
+    <state width="1493" height="226" key="GridCell.Tab.0.right" timestamp="1621048488391">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="981" height="241" key="GridCell.Tab.0.right/0.0.1024.728@0.0.1024.728" timestamp="1614997664670" />
+    <state width="1493" height="226" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1621048488391" />
+    <state width="1877" height="241" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1614995901125" />
+    <state width="1493" height="226" key="GridCell.Tab.1.bottom" timestamp="1621048488391">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="981" height="241" key="GridCell.Tab.1.bottom/0.0.1024.728@0.0.1024.728" timestamp="1614997664675" />
+    <state width="1493" height="226" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1621048488391" />
+    <state width="1877" height="241" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1614995901126" />
+    <state width="1493" height="226" key="GridCell.Tab.1.center" timestamp="1621048488391">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="981" height="241" key="GridCell.Tab.1.center/0.0.1024.728@0.0.1024.728" timestamp="1614997664675" />
+    <state width="1493" height="226" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1621048488391" />
+    <state width="1877" height="241" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1614995901125" />
+    <state width="1493" height="226" key="GridCell.Tab.1.left" timestamp="1621048488391">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="981" height="241" key="GridCell.Tab.1.left/0.0.1024.728@0.0.1024.728" timestamp="1614997664670" />
+    <state width="1493" height="226" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1621048488391" />
+    <state width="1877" height="241" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1614995901125" />
+    <state width="1493" height="226" key="GridCell.Tab.1.right" timestamp="1621048488391">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="981" height="241" key="GridCell.Tab.1.right/0.0.1024.728@0.0.1024.728" timestamp="1614997664675" />
+    <state width="1493" height="226" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1621048488391" />
+    <state width="1877" height="241" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1614995901125" />
+    <state width="1493" height="327" key="GridCell.Tab.2.bottom" timestamp="1620835727636">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="327" key="GridCell.Tab.2.bottom/0.0.1536.824@0.0.1536.824" timestamp="1620835727636" />
+    <state width="1493" height="327" key="GridCell.Tab.2.center" timestamp="1620835727636">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="327" key="GridCell.Tab.2.center/0.0.1536.824@0.0.1536.824" timestamp="1620835727636" />
+    <state width="1493" height="327" key="GridCell.Tab.2.left" timestamp="1620835727636">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="327" key="GridCell.Tab.2.left/0.0.1536.824@0.0.1536.824" timestamp="1620835727636" />
+    <state width="1493" height="327" key="GridCell.Tab.2.right" timestamp="1620835727636">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="327" key="GridCell.Tab.2.right/0.0.1536.824@0.0.1536.824" timestamp="1620835727636" />
+    <state x="294" y="132" width="1067" height="584" key="find.popup" timestamp="1617174379415">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="294" y="132" width="1067" height="584" key="find.popup/0.0.1536.824@0.0.1536.824" timestamp="1617174379415" />
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1614915244920">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1614915244920" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/sxt/bus/controller/ApprovalController.java</url>
+          <line>86</line>
+          <option name="timeStamp" value="23" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/sxt/bus/controller/ApplyController.java</url>
+          <line>83</line>
+          <option name="timeStamp" value="31" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/sxt/sys/cache/CachePool.java</url>
+          <line>76</line>
+          <option name="timeStamp" value="35" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/sxt/sys/cache/CachePool.java</url>
+          <line>70</line>
+          <option name="timeStamp" value="36" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/sxt/sys/cache/CachePool.java</url>
+          <line>64</line>
+          <option name="timeStamp" value="37" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/sxt/sys/cache/CachePool.java</url>
+          <line>58</line>
+          <option name="timeStamp" value="38" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/sxt/sys/cache/CachePool.java</url>
+          <line>50</line>
+          <option name="timeStamp" value="39" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/sxt/bus/controller/BuyController.java</url>
+          <line>88</line>
+          <option name="timeStamp" value="47" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/sxt/bus/controller/BuyController.java</url>
+          <line>61</line>
+          <option name="timeStamp" value="50" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/sxt/bus/controller/BuyController.java</url>
+          <line>54</line>
+          <option name="timeStamp" value="52" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/sxt/bus/controller/InOutInfoController.java</url>
+          <line>74</line>
+          <option name="timeStamp" value="93" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/sxt/bus/controller/GoodsController.java</url>
+          <line>224</line>
+          <option name="timeStamp" value="103" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/sxt/sys/realm/UserRealm.java</url>
+          <line>84</line>
+          <option name="timeStamp" value="110" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/sxt/bus/controller/ApplyController.java</url>
+          <line>66</line>
+          <option name="timeStamp" value="111" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/sxt/bus/controller/ApplyController.java</url>
+          <line>116</line>
+          <option name="timeStamp" value="112" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/sxt/sys/controller/FileController.java</url>
+          <line>29</line>
+          <option name="timeStamp" value="113" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/sxt/bus/controller/ApplyController.java</url>
+          <line>140</line>
+          <option name="timeStamp" value="114" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/sxt/bus/controller/AnnualController.java</url>
+          <line>63</line>
+          <option name="timeStamp" value="118" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/sxt/bus/controller/AnnualController.java</url>
+          <line>86</line>
+          <option name="timeStamp" value="119" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/sxt/bus/controller/ApplyController.java</url>
+          <line>48</line>
+          <option name="timeStamp" value="120" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/sxt/sys/controller/LoginController.java</url>
+          <line>36</line>
+          <option name="timeStamp" value="127" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/sxt/bus/controller/AnnualController.java</url>
+          <line>171</line>
+          <option name="timeStamp" value="130" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/sxt/bus/controller/AnnualController.java</url>
+          <line>187</line>
+          <option name="timeStamp" value="132" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/sxt/bus/controller/InportController.java</url>
+          <line>44</line>
+          <option name="timeStamp" value="134" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/sxt/bus/service/impl/InportServiceImpl.java</url>
+          <line>40</line>
+          <option name="timeStamp" value="137" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/main/java/com/sxt/bus/controller/ApplyController.java</url>
+          <line>111</line>
+          <properties class="com.sxt.bus.controller.ApplyController" method="updateApply">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/main/java/com/sxt/bus/controller/ApprovalController.java</url>
+          <line>71</line>
+          <properties class="com.sxt.bus.controller.ApprovalController" method="updateApply">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="32" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/main/java/com/sxt/bus/controller/BuyController.java</url>
+          <line>70</line>
+          <properties class="com.sxt.bus.controller.BuyController" method="updateBuy">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="46" />
+        </line-breakpoint>
+        <line-breakpoint type="java-method">
+          <url>file://$PROJECT_DIR$/src/main/java/com/sxt/bus/mapper/AnnualMapper.java</url>
+          <line>9</line>
+          <properties class="com.sxt.bus.mapper.AnnualMapper" method="getAnnual" />
+          <option name="timeStamp" value="92" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/main/java/com/sxt/sys/realm/UserRealm.java</url>
+          <line>54</line>
+          <properties class="com.sxt.sys.realm.UserRealm" method="doGetAuthenticationInfo">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="108" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/main/java/com/sxt/bus/controller/GoodsController.java</url>
+          <line>242</line>
+          <properties class="com.sxt.bus.controller.GoodsController" method="loadGoodsByProviderId">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="115" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/main/java/com/sxt/sys/cache/CacheAspect.java</url>
+          <line>48</line>
+          <properties class="com.sxt.sys.cache.CacheAspect" method="cacheDeptAdd">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="136" />
+        </line-breakpoint>
+        <line-breakpoint type="javascript">
+          <url>file://$PROJECT_DIR$/src/main/resources/templates/business/InOutInfo/InOutInfoManager.html</url>
+          <line>157</line>
+          <option name="timeStamp" value="72" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/main/resources/templates/system/index/login.html</url>
+          <line>42</line>
+          <option name="timeStamp" value="123" />
+        </line-breakpoint>
+      </breakpoints>
+      <default-breakpoints>
+        <breakpoint enabled="true" type="javascript-exception" />
+      </default-breakpoints>
+    </breakpoint-manager>
+    <watches-manager>
+      <configuration name="SpringBootApplicationConfigurationType">
+        <watch expression="list" />
+        <watch expression="list" />
+      </configuration>
+    </watches-manager>
+  </component>
+</project>

@@ -1,0 +1,55 @@
+{
+  "groups": [
+    {
+      "name": "shiro",
+      "type": "com.sxt.sys.config.ShiroAutoConfiguration",
+      "sourceType": "com.sxt.sys.config.ShiroAutoConfiguration"
+    }
+  ],
+  "properties": [
+    {
+      "name": "redis.host",
+      "type": "java.lang.String",
+      "description": "Description for redis.host."
+    },
+    {
+      "name": "shiro.anon-urls",
+      "type": "java.lang.String[]",
+      "sourceType": "com.sxt.sys.config.ShiroAutoConfiguration"
+    },
+    {
+      "name": "shiro.authc-ulrs",
+      "type": "java.lang.String[]",
+      "sourceType": "com.sxt.sys.config.ShiroAutoConfiguration"
+    },
+    {
+      "name": "shiro.hash-algorithm-name",
+      "type": "java.lang.String",
+      "sourceType": "com.sxt.sys.config.ShiroAutoConfiguration",
+      "defaultValue": "md5"
+    },
+    {
+      "name": "shiro.hash-iterations",
+      "type": "java.lang.Integer",
+      "sourceType": "com.sxt.sys.config.ShiroAutoConfiguration",
+      "defaultValue": 2
+    },
+    {
+      "name": "shiro.log-out-url",
+      "type": "java.lang.String",
+      "sourceType": "com.sxt.sys.config.ShiroAutoConfiguration"
+    },
+    {
+      "name": "shiro.login-url",
+      "type": "java.lang.String",
+      "sourceType": "com.sxt.sys.config.ShiroAutoConfiguration",
+      "defaultValue": "\/index.html"
+    },
+    {
+      "name": "spring.thymeleaf.prefix.classpath",
+      "type": "java.lang.String",
+      "description": "Description for spring.thymeleaf.prefix.classpath."
+    }
+  ],
+  "hints": []
+}

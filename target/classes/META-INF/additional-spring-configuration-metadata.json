@@ -1,0 +1,13 @@
+{
+  "properties": [
+    {
+      "name": "spring.thymeleaf.prefix.classpath",
+      "type": "java.lang.String",
+      "description": "Description for spring.thymeleaf.prefix.classpath."
+    },
+    {
+      "name": "redis.host",
+      "type": "java.lang.String",
+      "description": "Description for redis.host."
+    }
+  ] }

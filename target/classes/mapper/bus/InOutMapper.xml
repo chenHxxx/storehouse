@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.sxt.bus.mapper.InOutMapper">
+
+
+    <select id="findAllAndPage" resultType="com.sxt.bus.domain.InOutInfo">
+
+    select a.id,a.paytype,a.providerid,a.goodsid,a.inporttime as infotime,a.operateperson,a.number,a.state1 as state from bus_inport a
+UNION all
+select b.id,b.paytype,b.providerid,b.goodsid,b.outputtime as infotime,b.operateperson,b.number,b.state0 as state from bus_outport b
+
+    </select>
+
+    <select id="getloadSelectInout" parameterType="com.sxt.bus.domain.InOutInfo" resultType="com.sxt.bus.domain.InOutInfo">
+
+select * from (
+    select a.id,a.paytype,a.providerid,a.goodsid,a.inporttime as infotime,a.operateperson,a.number,a.state1 as state from bus_inport a
+UNION all
+select b.id,b.paytype,b.providerid,b.goodsid,b.outputtime as infotime,b.operateperson,b.number,b.state0 as state from bus_outport b
+)  as c where providerid = #{providerid} and goodsid = #{goodsid}
+    </select>
+    <select id="getInfoOperateperson" parameterType="com.sxt.bus.domain.InOutInfo" resultType="com.sxt.bus.domain.InOutInfo">
+        select * from (
+    select a.id,a.paytype,a.providerid,a.goodsid,a.inporttime as infotime,a.operateperson,a.number,a.state1 as state from bus_inport a
+UNION all
+select b.id,b.paytype,b.providerid,b.goodsid,b.outputtime as infotime,b.operateperson,b.number,b.state0 as state from bus_outport b
+)  as c where  operateperson = #{operateperson}
+
+    </select>
+    <select id="getInfotime" parameterType="com.sxt.bus.domain.InOutInfo" resultType="com.sxt.bus.domain.InOutInfo">
+                select * from (
+    select a.id,a.paytype,a.providerid,a.goodsid,a.inporttime as infotime,a.operateperson,a.number,a.state1 as state from bus_inport a
+UNION all
+select b.id,b.paytype,b.providerid,b.goodsid,b.outputtime as infotime,b.operateperson,b.number,b.state0 as state from bus_outport b
+)  as c where  infotime &gt;= #{starttime}
+
+    </select>
+    <select id="getInfotime2" parameterType="com.sxt.bus.domain.InOutInfo" resultType="com.sxt.bus.domain.InOutInfo">
+            select * from (
+    select a.id,a.paytype,a.providerid,a.goodsid,a.inporttime as infotime,a.operateperson,a.number,a.state1 as state from bus_inport a
+UNION all
+select b.id,b.paytype,b.providerid,b.goodsid,b.outputtime as infotime,b.operateperson,b.number,b.state0 as state from bus_outport b
+)  as c where  infotime &lt;= #{endtime}
+
+
+    </select>
+    <select id="getSelectState" parameterType="com.sxt.bus.domain.InOutInfo" resultType="com.sxt.bus.domain.InOutInfo">
+         select * from (
+    select a.id,a.paytype,a.providerid,a.goodsid,a.inporttime as infotime,a.operateperson,a.number,a.state1 as state from bus_inport a
+UNION all
+select b.id,b.paytype,b.providerid,b.goodsid,b.outputtime as infotime,b.operateperson,b.number,b.state0 as state from bus_outport b
+)  as c where 1=1
+    <if test="state != null  and state!=''">
+       and  state =#{state}
+    </if>
+    <if test="starttime != null and starttime != ''">
+        and  infotime &gt;= #{starttime,jdbcType=VARCHAR}
+    </if>
+    <if test="endtime != null and endtime != ''">
+        and  infotime &lt;= #{endtime,jdbcType=VARCHAR}
+    </if>
+    <if test="providerid != null and providerid != ''">
+        and providerid =#{providerid}
+    </if>
+        <if test="goodsid != null and goodsid != ''">
+            and goodsid =#{goodsid}
+        </if>
+        <if test="operateperson != null and operateperson != ''">
+            and operateperson =#{operateperson}
+        </if>
+
+
+    </select>
+
+</mapper>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.sxt.bus.mapper.GoodsMapper">
+
+
+
+    <update id="updateByInport" parameterType="com.sxt.bus.vo.InportVo">
+        update bus_goods set number = number +#{number} where goodsname = #{goodsname};
+    </update>
+    <select id="getByName" parameterType="com.sxt.bus.vo.GoodsVo" resultType="com.sxt.bus.domain.Goods">
+        select * from bus_goods b where b.goodsname = #{goodsname};
+    </select>
+    <select id="loadSeriesGoods" resultType="com.sxt.bus.domain.Goods">
+        select id,SUM(number) as number,w.productcode from bus_goods w where w.goodsname like '%桌%' and w.productcode in ('GK11599','GB15979','HUSD788','JKASD87','YH12899','PL55587','GH55768')  group by w.productcode;
+    </select>
+    <select id="loadChairGoods" resultType="com.sxt.bus.domain.Goods">
+        select id,SUM(number) as number,w.productcode from bus_goods w where w.goodsname like '%椅%' and w.productcode in ('GK11599','GB15979','HUSD788','JKASD87','YH12899','PL55587','GH55768')  group by w.productcode;
+    </select>
+    <select id="loadSofaGoods" resultType="com.sxt.bus.domain.Goods">
+        select id,SUM(number) as number,w.productcode from bus_goods w where w.goodsname like '%沙发%' and w.productcode in ('GK11599','GB15979','HUSD788','JKASD87','YH12899','PL55587','GH55768')  group by w.productcode;
+
+    </select>
+    <select id="loadTaiGoods" resultType="com.sxt.bus.domain.Goods">
+        select id,SUM(number) as number,w.productcode from bus_goods w where w.goodsname like '%台%' and w.productcode in ('GK11599','GB15979','HUSD788','JKASD87','YH12899','PL55587','GH55768')  group by w.productcode;
+    </select>
+    <select id="loadBedGoods" resultType="com.sxt.bus.domain.Goods">
+        select id,SUM(number) as number,w.productcode from bus_goods w where w.goodsname like '%床%' and w.productcode in ('GK11599','GB15979','HUSD788','JKASD87','YH12899','PL55587','GH55768')  group by w.productcode;
+    </select>
+
+</mapper>

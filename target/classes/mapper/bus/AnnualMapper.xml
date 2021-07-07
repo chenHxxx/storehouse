@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.sxt.bus.mapper.AnnualMapper">
+
+    <select id="getAnnual" parameterType="com.sxt.bus.domain.Annual" resultType="com.sxt.bus.domain.Annual">
+
+    select a.id,a.providerid,a.goodsid,sum(a.number) as number,a.state1 as state,a.operateperson,a.inporttime as infotime
+from bus_inport a group by a.providerid
+union ALL
+select b.id,b.providerid,b.goodsid,sum(b.number) as number,b.state0 as state,b.operateperson,b.outputtime as infotime
+from bus_outport b group by b.providerid
+    </select>
+
+
+    <select id="getselectState" parameterType="com.sxt.bus.domain.Annual" resultType="com.sxt.bus.domain.Annual">
+
+        select  c.providerid,
+        c.goodsid,
+        c.number,
+        c.state,
+        c.infotime,
+        c.operateperson
+        from
+        (select a.id,a.paytype,a.providerid,a.goodsid,a.inporttime as infotime,a.operateperson,sum(a.number) as number,a.state1 as state from bus_inport a
+        where 1=1
+        <if test="providerid != null and providerid != ''">
+            and a.providerid =#{providerid}
+        </if>
+        <if test="goodsid != null and goodsid != ''">
+            and a.goodsid =#{goodsid}
+        </if>
+        <if test="state != null and state != ''">
+            and a.state1 = #{state}
+        </if>
+        group by a.providerid
+        UNION all
+        select b.id,b.paytype,b.providerid,b.goodsid,b.outputtime as infotime,b.operateperson,sum(b.number) as number,b.state0 as state from bus_outport b
+         where 1=1
+         <if test="providerid != null and providerid != ''">
+            and b.providerid =#{providerid}
+         </if>
+        <if test="goodsid != null and goodsid != ''">
+            and b.goodsid =#{goodsid}
+        </if>
+        <if test="state != null and state != ''">
+            and b.state0 = #{state}
+        </if>
+        group by b.providerid
+    ) as c
+        where 1=1
+        <if test="state != null and state != ''">
+            and state = #{state}
+        </if>
+        <if test="starttime != null and starttime != ''">
+            and  infotime &gt;= #{starttime,jdbcType=VARCHAR}
+        </if>
+        <if test="endtime != null and endtime != ''">
+            and  infotime &lt;= #{endtime,jdbcType=VARCHAR}
+        </if>
+        <if test="providerid != null and providerid != ''">
+            and providerid =#{providerid}
+        </if>
+        <if test="goodsid != null and goodsid != ''">
+            and goodsid =#{goodsid}
+        </if>
+        <if test="operateperson != null and operateperson != ''">
+            and operateperson =#{operateperson}
+        </if>
+    </select>
+    <select id="getSelectInfo" resultType="com.sxt.bus.domain.Annual">
+        select providerid,goodsid,sum(number) as number FROM bus_outport group by goodsid
+
+    </select>
+    <select id="findAllAnnual2" resultType="com.sxt.bus.domain.Annual">
+         select a.id,a.providerid,a.goodsid,sum(a.number) as number,a.state1 as state,a.operateperson,a.inporttime as infotime
+from bus_inport a group by a.providerid
+union ALL
+select b.id,b.providerid,b.goodsid,sum(b.number) as number,b.state0 as state,b.operateperson,b.outputtime as infotime
+from bus_outport b group by b.providerid
+    </select>
+    <select id="getSelectInfo2" resultType="com.sxt.bus.domain.Annual">
+        select providerid,goodsid,sum(number) as number from bus_inport group by goodsid
+
+    </select>
+</mapper>

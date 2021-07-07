@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+	<meta charset="utf-8">
+	<title>首页--工作台</title>
+	<meta name="renderer" content="webkit">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	<meta name="apple-mobile-web-app-status-bar-style" content="black">
+	<meta name="apple-mobile-web-app-capable" content="yes">
+	<meta name="format-detection" content="telephone=no">
+	<link rel="stylesheet" href="/resources/layui/css/layui.css" media="all" />
+	<link rel="stylesheet" href="/resources/css/public.css" media="all" />
+</head>
+<body class="childrenBody">
+	<blockquote class="layui-elem-quote layui-bg-green">
+		<div id="nowTime"></div>
+	</blockquote>
+	<div>
+	<div id="main1" style="width: 1200px;height: 400px"></div>
+	<div id="main2" style="width: 1200px;height:400px;border:1px dashed #000;"></div>
+	<div id="speedChartMain" style="width: 1200px; height: 400px;"></div>
+	</div>
+	<script type="text/javascript" src="/resources/layui/layui.js"></script>
+	<script src="https://s3.pstatp.com/cdn/expire-1-M/jquery/3.3.1/jquery.min.js"></script>
+	<script type="text/javascript" src="/resources/layui/echarts.min.js"></script>
+12
+	<script type="text/javascript">
+
+		// 基于准备好的dom，初始化echarts实例
+		var myChart = echarts.init(document.getElementById('main1'));
+		var data1 = [];
+		var data2 = [];
+		var data22 = [];
+
+		var option = {
+			title: {
+				text: '仓库商品出入库统计'
+			},
+			legend: {
+				data: [
+					{name:'出库量'},
+					{name:'入库量'}
+				]
+			},
+			xAxis: {
+				data:data1,
+				axisLabel: {
+					interval:0,
+					rotate:40
+				}
+			},
+			yAxis:[{
+
+			},
+				{
+				}],
+			series:[{
+					name:'出库量',
+					type:'bar',
+					data:data22
+				},
+				{name:'入库量',
+					type:'bar',
+					data:data2}]
+		};
+		$.ajax({
+			url:"/Annual/ZhuZhuangCK",
+			dataType: 'json',
+			type: 'post',
+			success: function(res) {
+				var data=res.data;
+				for (var i=0;i<data.length;i++){
+					data22.push(data[i].number)
+				}
+				console.log("================="+data22);
+			}
+		});
+		$.ajax({
+			url:"/Annual/ZhuZhuangRK",
+			dataType: 'json',
+			type: 'post',
+			success: function(res) {
+				var data=res.data;
+				console.log(data);
+				for (var i=0;i<data.length;i++){
+					data1.push(data[i].goodsname)
+					data2.push(data[i].number)
+				}
+				console.log("========9++++====789789====="+data1);
+
+				myChart.setOption(option);
+			}
+		});
+
+
+		var myChart2 = echarts.init(document.getElementById('main2'));
+		var data3 = [];
+		var data4 = [];
+
+		var Option2 = {
+					title: {
+						text: '仓库商品统计',
+						x: 'center'
+					},
+					tooltip: {
+						trigger: 'item',
+						formatter: "{a} <br/>{b} : {c} ({d}%)"
+					},
+					legend: {
+						orient: 'vertical',
+						left: 'left',
+					},
+					series: [
+						{
+							name: '存货量',
+							type: 'pie',
+							radius: '55%',
+							center: ['50%', '60%'],
+							data: (function () {
+								var datas = [];
+								$.ajax({
+									url: "/goods/loadAllGoods",
+									dataType: 'json',
+									type: 'post',
+									async: false,
+									success:function (res) {
+										var data=res.data;
+										console.log(data);
+										for (var i=0;i<data.length;i++){
+											datas.push({
+												"value":data[i].number,
+												"name":data[i].goodsname,
+											})
+										}
+									}
+								})
+								return datas;
+							})(),
+							itemStyle: {
+								emphasis: {
+									shadowBlur: 10,
+									shadowOffsetX: 0,
+									shadowColor: 'rgba(0, 0, 0, 0.5)'
+								}
+							}
+						}
+					]
+				};
+		myChart2.setOption(Option2);
+
+		var myChart4 = echarts.init(document.getElementById('speedChartMain'));
+		var data5 = [];
+		var data6 = [];
+		var data7 = [];
+		var data8 = [];
+		var data9 = [];
+		var data10 = [];
+		option4 = {
+			tooltip: {
+				trigger: 'axis'
+			},
+			legend: {
+				data:['床系列','柜台系列','沙发系列','椅子系列','桌子系列']
+			},
+			grid: {
+				left: '3%',
+				right: '4%',
+				bottom: '3%',
+				containLabel: true
+			},
+			toolbox: {
+				feature: {
+					saveAsImage: {}
+				}
+			},
+			xAxis: {
+				type: 'category',
+				boundaryGap: false,
+				data: ['GK11599','GB15979','HUSD788','JKASD87','YH12899','PL55587','GH55768']
+			},
+			yAxis: {
+
+				type: 'value'
+			},
+			series: [
+				{
+					name:'床系列',
+					type:'line',
+					stack: '总量',
+					data:data10
+				},
+				{
+					name:'柜台系列',
+					type:'line',
+					stack: '总量',
+					data:data9
+				},
+				{
+					name:'沙发系列',
+					type:'line',
+					stack: '总量',
+					data:data8
+				},
+				{
+					name:'椅子系列',
+					type:'line',
+					stack: '总量',
+					data:data7
+				},
+				{
+					name:'桌子系列',
+					type:'line',
+					stack: '总量',
+					data:data6
+				}
+			]
+		};
+
+		$.ajax({
+			url:"/goods/loadSeriesGoods",
+			dataType: 'json',
+			type: 'post',
+			success: function(res) {
+				var data=res.data;
+				console.log(data);
+				for (var i=0;i<data.length;i++){
+					data5.push(data[i].goodsname)
+					data6.push(data[i].number)
+				}
+				myChart4.setOption(option4);
+			}
+
+		});
+		// 使用刚指定的配置项和数据显示图表。
+
+		$.ajax({
+			url:"/goods/loadChairGoods",
+			dataType: 'json',
+			type: 'post',
+			success: function(res) {
+				var data=res.data;
+				console.log(data);
+				for (var i=0;i<data.length;i++){
+					data7.push(data[i].number)
+				}
+				myChart4.setOption(option4);
+			}
+
+		});
+
+		$.ajax({
+			url:"/goods/loadSofaGoods",
+			dataType: 'json',
+			type: 'post',
+			success: function(res) {
+				var data=res.data;
+				console.log(data);
+				for (var i=0;i<data.length;i++){
+					data8.push(data[i].number)
+				}
+				myChart4.setOption(option4);
+			}
+
+		});
+
+		$.ajax({
+			url:"/goods/loadTaiGoods",
+			dataType: 'json',
+			type: 'post',
+			success: function(res) {
+				var data=res.data;
+				console.log(data);
+				for (var i=0;i<data.length;i++){
+					data9.push(data[i].number)
+				}
+				myChart4.setOption(option4);
+			}
+
+		});
+
+		$.ajax({
+			url:"/goods/loadBedGoods",
+			dataType: 'json',
+			type: 'post',
+			success: function(res) {
+				var data=res.data;
+				console.log(data);
+				for (var i=0;i<data.length;i++){
+					data10.push(data[i].number)
+				}
+				myChart4.setOption(option4);
+			}
+
+		});
+
+
+	</script>
+</body>
+</html>
